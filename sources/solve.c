@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   solve.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/20 18:53:02 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/01/31 20:07:34 by cdemetra         ###   ########.fr       */
+/*   Created: 2020/01/31 16:40:13 by cdemetra          #+#    #+#             */
+/*   Updated: 2020/02/03 18:33:09 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/lem_in.h"
 
-int		main(int ac, char **av)
+int		main_solve(t_graph *gh)
 {
-	t_graph *gh;
 
-	if (ac == 2 && (gh = malloc_graph()))
-	{
-		if (save(gh, av[1]))
-			solve()
-	}
 }
-

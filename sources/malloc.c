@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/23 18:01:17 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/01/27 19:39:38 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/02 17:08:20 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,9 @@ t_link	*malloc_node(char **split)
 		node->name = ft_strdup(split[0]);
 		node->x = ft_atoi(split[1]);
 		node->y = ft_atoi(split[2]);
+		node->cost = INT_MAX;
+		node->parent = NULL;
+		node->neig = NULL;
 	}
 	else
 	{
@@ -70,6 +73,23 @@ int		add_to_room_list(t_node *room, t_link *lnk)
 		itr->next = lnk;
 	}
 	return (1);
+}
+
+t_graph	*malloc_graph(void)
+{
+	t_graph	*lst;
+
+	if (lst = (t_graph*)malloc(sizeof(t_graph)))
+	{
+		lst->count_ants = 0;
+		lst->count_rooms = 0;
+		lst->lst_nodes = NULL;
+		lst->start = NULL;
+		lst->end = NULL;
+		return (lst);
+	}
+	else
+		return (NULL);
 }
 
 int		malloc_links(t_node *room1, t_node *room2)

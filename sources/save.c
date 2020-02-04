@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 17:37:37 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/01/27 19:45:02 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/01/31 16:36:00 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -177,12 +177,12 @@ int		ft_read_start_end(t_graph *gh, char *line, int fd)
 		return (0);
 }
 
-int		save(t_graph *gh)
+int		save(t_graph *gh, char *name_file)
 {
 	int		fd;
 	char	*line;
 
-	fd = open("map", O_RDONLY);
+	fd = open(name_file, O_RDONLY);
 
 	while (get_next_line(fd,&line))
 	{
@@ -196,4 +196,5 @@ int		save(t_graph *gh)
 			gh->count_rooms++;
 		free(line);
 	}
+	return (1);
 }
