@@ -215,6 +215,7 @@ CMakeFiles/together_lem_in.dir/sources/init/save.c.o
  ../includes/lem_in.h
  ../libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/init/save.c
+<<<<<<< HEAD
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
@@ -227,11 +228,26 @@ CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o
  ../includes/lem_in.h
  ../libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/save_way.c
+=======
+CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o
+ ../includes/lem_in.h
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/sources/init/save_way.c
+CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o
+ ../includes/lem_in.h
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o
  ../includes/lem_in.h
  ../libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/seacrh_way.c
 CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o
+<<<<<<< HEAD
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
+=======
+ ../includes/lem_in.h
+ ../libft/libft.h
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
  /Users/cdemetra/42course/together_lem_in/sources/solve/solve.c

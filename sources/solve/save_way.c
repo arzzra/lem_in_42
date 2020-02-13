@@ -51,7 +51,11 @@ t_link	*reverse_save_way(t_node *end)
 
 //ИСПРАВЬ на ПОЛНЫЙ ГРАФ
 
+<<<<<<< HEAD:sources/solve/save_way.c
 void	reset_parents(t_graph *gh)
+=======
+void	reset_way(t_node *end)
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec:sources/solve/save_way.c
 {
 	t_node	*nod;
 	t_link	*lk;
@@ -79,9 +83,17 @@ int		save_way(t_graph *gh)
 		while (lst->next)
 			lst = lst->next;
 		lst->next = reverse_save_way(gh->end);
+<<<<<<< HEAD:sources/solve/save_way.c
 	}
 	else
 		gh->list_path = reverse_save_way(gh->end);
 	reset_parents(gh);
 	return (1);
+=======
+		reset_way(gh->end);
+	}
+	else
+		gh->list_path = reverse_save_way(gh->end);
+    return (1);
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec:sources/solve/save_way.c
 }

@@ -6,7 +6,11 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 16:14:07 by cdemetra          #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2020/02/13 14:53:03 by cdemetra         ###   ########.fr       */
+=======
+/*   Updated: 2020/02/04 19:30:47 by cdemetra         ###   ########.fr       */
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,8 +86,12 @@ int					is_digit_only(char *str);
 */
 t_link				*malloc_node(char **split);
 t_link				*malloc_t_link(void);
+<<<<<<< HEAD
 t_bond				*malloc_bond(void);
 int					add_to_room_list(t_node *room, t_bond *lnk);
+=======
+int					add_to_room_list(t_node *room, t_link *lnk);
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 t_graph				*malloc_graph(void);
 int					malloc_links(t_node *room1, t_node *room2);
 void				free_split(char **split);
@@ -92,7 +100,11 @@ void				free_split(char **split);
 ** save_way.c
 */
 t_link				*reverse_save_way(t_node *end);
+<<<<<<< HEAD
 void				reset_way(t_graph *gh); //ИСПРАВЬ на ПОЛНЫЙ ГРАФ
+=======
+void				reset_way(t_node *end); //ИСПРАВЬ на ПОЛНЫЙ ГРАФ
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 int					save_way(t_graph *gh);
 
 /*
@@ -124,6 +136,7 @@ int					main_solve(t_graph *gh);
 ** ford_bellman.c
 */
 int					ford_bellman(t_graph *gh);
+<<<<<<< HEAD
 int					ford_relaxing(t_node *room);
 
 /*
@@ -131,6 +144,11 @@ int					ford_relaxing(t_node *room);
 */
 
 int 	node_dividing(t_graph *gh);
+=======
+int					ford_relaxing(t_node *room, t_node *par, int cost);
+
+
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 
 /*
 ** seacrh_way.c

@@ -2013,6 +2013,36 @@ sources/init/save.c.s:
 	$(MAKE) -f CMakeFiles/together_lem_in.dir/build.make CMakeFiles/together_lem_in.dir/sources/init/save.c.s
 .PHONY : sources/init/save.c.s
 
+<<<<<<< HEAD
+=======
+sources/init/save_way.o: sources/init/save_way.c.o
+
+.PHONY : sources/init/save_way.o
+
+# target to build an object file
+sources/init/save_way.c.o:
+	$(MAKE) -f CMakeFiles/together_lem_in.dir/build.make CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o
+.PHONY : sources/init/save_way.c.o
+
+sources/init/save_way.i: sources/init/save_way.c.i
+
+.PHONY : sources/init/save_way.i
+
+# target to preprocess a source file
+sources/init/save_way.c.i:
+	$(MAKE) -f CMakeFiles/together_lem_in.dir/build.make CMakeFiles/together_lem_in.dir/sources/init/save_way.c.i
+.PHONY : sources/init/save_way.c.i
+
+sources/init/save_way.s: sources/init/save_way.c.s
+
+.PHONY : sources/init/save_way.s
+
+# target to generate assembly for a file
+sources/init/save_way.c.s:
+	$(MAKE) -f CMakeFiles/together_lem_in.dir/build.make CMakeFiles/together_lem_in.dir/sources/init/save_way.c.s
+.PHONY : sources/init/save_way.c.s
+
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 sources/solve/ford_bellman.o: sources/solve/ford_bellman.c.o
 
 .PHONY : sources/solve/ford_bellman.o
@@ -2040,6 +2070,7 @@ sources/solve/ford_bellman.c.s:
 	$(MAKE) -f CMakeFiles/together_lem_in.dir/build.make CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.s
 .PHONY : sources/solve/ford_bellman.c.s
 
+<<<<<<< HEAD
 sources/solve/node_dividing.o: sources/solve/node_dividing.c.o
 
 .PHONY : sources/solve/node_dividing.o
@@ -2094,6 +2125,8 @@ sources/solve/save_way.c.s:
 	$(MAKE) -f CMakeFiles/together_lem_in.dir/build.make CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.s
 .PHONY : sources/solve/save_way.c.s
 
+=======
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 sources/solve/seacrh_way.o: sources/solve/seacrh_way.c.o
 
 .PHONY : sources/solve/seacrh_way.o
@@ -2367,6 +2400,7 @@ help:
 	@echo "... sources/init/save.o"
 	@echo "... sources/init/save.i"
 	@echo "... sources/init/save.s"
+<<<<<<< HEAD
 	@echo "... sources/solve/ford_bellman.o"
 	@echo "... sources/solve/ford_bellman.i"
 	@echo "... sources/solve/ford_bellman.s"
@@ -2376,6 +2410,14 @@ help:
 	@echo "... sources/solve/save_way.o"
 	@echo "... sources/solve/save_way.i"
 	@echo "... sources/solve/save_way.s"
+=======
+	@echo "... sources/init/save_way.o"
+	@echo "... sources/init/save_way.i"
+	@echo "... sources/init/save_way.s"
+	@echo "... sources/solve/ford_bellman.o"
+	@echo "... sources/solve/ford_bellman.i"
+	@echo "... sources/solve/ford_bellman.s"
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 	@echo "... sources/solve/seacrh_way.o"
 	@echo "... sources/solve/seacrh_way.i"
 	@echo "... sources/solve/seacrh_way.s"

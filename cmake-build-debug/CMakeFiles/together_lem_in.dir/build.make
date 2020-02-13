@@ -967,9 +967,28 @@ CMakeFiles/together_lem_in.dir/sources/init/save.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/init/save.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/init/save.c -o CMakeFiles/together_lem_in.dir/sources/init/save.c.s
 
+<<<<<<< HEAD
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o: ../sources/solve/ford_bellman.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o"
+=======
+CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o: ../sources/init/save_way.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/init/save_way.c
+
+CMakeFiles/together_lem_in.dir/sources/init/save_way.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/init/save_way.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/init/save_way.c > CMakeFiles/together_lem_in.dir/sources/init/save_way.c.i
+
+CMakeFiles/together_lem_in.dir/sources/init/save_way.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/init/save_way.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/init/save_way.c -o CMakeFiles/together_lem_in.dir/sources/init/save_way.c.s
+
+CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o: ../sources/solve/ford_bellman.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o"
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c
 
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.i: cmake_force
@@ -980,6 +999,7 @@ CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c -o CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.s
 
+<<<<<<< HEAD
 CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o: ../sources/solve/node_dividing.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o"
@@ -1009,6 +1029,11 @@ CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.s: cmake_force
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o: ../sources/solve/seacrh_way.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o"
+=======
+CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o: ../sources/solve/seacrh_way.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o"
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/seacrh_way.c
 
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.i: cmake_force
@@ -1021,7 +1046,11 @@ CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o: ../sources/solve/solve.c
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o"
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/solve.c
 
 CMakeFiles/together_lem_in.dir/sources/solve/solve.c.i: cmake_force
@@ -1104,9 +1133,14 @@ together_lem_in_OBJECTS = \
 "CMakeFiles/together_lem_in.dir/sources/init/main.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/init/save.c.o" \
+<<<<<<< HEAD
 "CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o" \
+=======
+"CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o" \
+"CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o" \
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 "CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o"
 
@@ -1183,14 +1217,23 @@ together_lem_in: CMakeFiles/together_lem_in.dir/sources/init/additional.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/init/main.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/init/save.c.o
+<<<<<<< HEAD
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o
+=======
+together_lem_in: CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/build.make
 together_lem_in: CMakeFiles/together_lem_in.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Linking C executable together_lem_in"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking C executable together_lem_in"
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/together_lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

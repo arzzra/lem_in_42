@@ -117,7 +117,13 @@ int		malloc_links(t_node *room1, t_node *room2)
 	t_bond	*bond1;
 	t_bond	*bond2;
 
+<<<<<<< HEAD:sources/init/malloc.c
 	if ((bond1 = malloc_bond()) && (bond2 = malloc_bond()))
+=======
+	lnk = NULL;
+	lnk2 = NULL;
+	if ((lnk = malloc_t_link()) && (lnk2 = malloc_t_link()))
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec:sources/init/malloc.c
 	{
 		bond1->node = room2;
 		bond2->node = room1;

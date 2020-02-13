@@ -215,10 +215,18 @@ CMakeFiles/together_lem_in.dir/sources/init/save.c.o: ../includes/lem_in.h
 CMakeFiles/together_lem_in.dir/sources/init/save.c.o: ../libft/libft.h
 CMakeFiles/together_lem_in.dir/sources/init/save.c.o: ../sources/init/save.c
 
+<<<<<<< HEAD
+=======
+CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o: ../includes/lem_in.h
+CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o: ../libft/libft.h
+CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o: ../sources/init/save_way.c
+
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o: ../includes/lem_in.h
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o: ../libft/libft.h
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o: ../sources/solve/ford_bellman.c
 
+<<<<<<< HEAD
 CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o: ../includes/lem_in.h
 CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o: ../libft/libft.h
 CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o: ../sources/solve/node_dividing.c
@@ -227,6 +235,8 @@ CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o: ../includes/lem_in.h
 CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o: ../libft/libft.h
 CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o: ../sources/solve/save_way.c
 
+=======
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o: ../includes/lem_in.h
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o: ../libft/libft.h
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o: ../sources/solve/seacrh_way.c

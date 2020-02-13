@@ -74,9 +74,14 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/cdemetra/42course/together_lem_in/sources/init/main.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/init/main.c.o"
   "/Users/cdemetra/42course/together_lem_in/sources/init/malloc.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o"
   "/Users/cdemetra/42course/together_lem_in/sources/init/save.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/init/save.c.o"
+<<<<<<< HEAD
   "/Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o"
   "/Users/cdemetra/42course/together_lem_in/sources/solve/node_dividing.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o"
   "/Users/cdemetra/42course/together_lem_in/sources/solve/save_way.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o"
+=======
+  "/Users/cdemetra/42course/together_lem_in/sources/init/save_way.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o"
+  "/Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o"
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
   "/Users/cdemetra/42course/together_lem_in/sources/solve/seacrh_way.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o"
   "/Users/cdemetra/42course/together_lem_in/sources/solve/solve.c" "/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o"
   )

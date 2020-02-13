@@ -300,6 +300,7 @@
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/init/save.c">
 			<Option target="together_lem_in"/>
 		</Unit>
+<<<<<<< HEAD
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c">
 			<Option target="together_lem_in"/>
 		</Unit>
@@ -307,6 +308,12 @@
 			<Option target="together_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/save_way.c">
+=======
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/init/save_way.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c">
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 			<Option target="together_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/seacrh_way.c">

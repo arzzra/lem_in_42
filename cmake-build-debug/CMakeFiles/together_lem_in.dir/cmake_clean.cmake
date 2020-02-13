@@ -69,9 +69,14 @@ file(REMOVE_RECURSE
   "CMakeFiles/together_lem_in.dir/sources/init/main.c.o"
   "CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o"
   "CMakeFiles/together_lem_in.dir/sources/init/save.c.o"
+<<<<<<< HEAD
   "CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o"
   "CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o"
   "CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o"
+=======
+  "CMakeFiles/together_lem_in.dir/sources/init/save_way.c.o"
+  "CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o"
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
   "CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o"
   "CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o"
   "together_lem_in"

@@ -2,6 +2,9 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/cdemetra/42course/together_lem_in/cmake-build-debug
+<<<<<<< HEAD
 
 Cannot get compiler information:
 	Unable to create temporary file
+=======
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec

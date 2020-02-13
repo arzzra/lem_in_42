@@ -26,6 +26,7 @@ stdlib.h
 fcntl.h
 -
 
+<<<<<<< HEAD
 /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
 ../libft/libft.h
 /Users/cdemetra/42course/together_lem_in/libft/libft.h
@@ -58,10 +59,13 @@ fcntl.h
 ../includes/lem_in.h
 /Users/cdemetra/42course/together_lem_in/sources/includes/lem_in.h
 
+=======
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
 /Users/cdemetra/42course/together_lem_in/sources/init/save.c
 ../includes/lem_in.h
 /Users/cdemetra/42course/together_lem_in/sources/includes/lem_in.h
 
+<<<<<<< HEAD
 /Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c
 ../../includes/lem_in.h
 /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
@@ -82,3 +86,5 @@ fcntl.h
 ../../includes/lem_in.h
 /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
 
+=======
+>>>>>>> 0c884fd6597d243c1ec66e7cb8baa0ad0a6317ec
