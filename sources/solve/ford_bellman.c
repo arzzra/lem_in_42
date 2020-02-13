@@ -6,20 +6,38 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/31 20:07:06 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/03 19:22:31 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/13 16:02:34 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/lem_in.h"
+#include "../../includes/lem_in.h"
 
 int		ford_bellman(t_graph *gh)
 {
 	int		n;
+	t_link	*lk;
+	int		boool;
+	t_node	*rm;
 
 	n = gh->count_rooms;
 	while (n > 1)
 	{
-		ford_relaxing(gh->start, NULL, 0);
+		boool = 0;
+		lk = gh->lst_nodes;
+		while (lk)
+		{
+			rm = (t_node*)lk->lnk;
+			if (rm->in && rm->out)
+			{
+				if (ford_relaxing(rm->in) || ford_relaxing(rm->out))
+					boool = 1;
+			}
+			else if (ford_relaxing(rm))
+				boool = 1;
+			lk = lk->next;
+		}
+		if (boool == 0)
+			break ;
 		n--;
 	}
 	if (gh->end->parent)
@@ -28,27 +46,35 @@ int		ford_bellman(t_graph *gh)
 		return (0);
 }
 
-int		ford_relaxing(t_node *room, t_node *par, int cost)
+int		ford_relaxing(t_node *room)
 {
-	t_link	*lnk;
-	t_node	*node;
-	t_bond	*bon;
+	t_bond	*bn;
+	t_node	*nod;
+	int		boool;
 
-	lnk = room->neig;
-	if (cost < room->cost)
+	boool = 0;
+	if (room->cost == INT_MAX)
+		return (1);
+	bn = room->neig;
+	while (bn)
 	{
-		room->cost = cost;
-		room->parent = par;
-	}
-	while (lnk)
-	{
-		bon = (t_bond*)lnk->lnk;
-		node = bon->node;
-		if (node != par)
+		if (bn->activ)
 		{
-			ford_relaxing(node, room, room->cost + bon->weight);
+			if (bn->weight == 1 && bn->node->in && bn->node->out)
+				nod = bn->node->in;
+			else if (bn->weight == -1 && bn->node->in && bn->node->out)
+				nod = bn->node->out;
+			else
+				nod = bn->node;
+			if ((room->cost + bn->weight) < nod->cost)
+			{
+				nod->cost = room->cost + bn->weight;
+				nod->parent = room;
+				boool = 1;
+			}
 		}
-		lnk = lnk->next;
+		bn = bn->next;
 	}
+	return (boool);
 }
 

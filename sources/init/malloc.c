@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/23 18:01:17 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/02 17:08:20 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/13 14:54:10 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ t_link	*malloc_node(char **split)
 		node->cost = INT_MAX;
 		node->parent = NULL;
 		node->neig = NULL;
+		node->in = NULL;
+		node->out = NULL;
 	}
 	else
 	{
@@ -43,10 +45,11 @@ t_link	*malloc_t_link(void)
 {
 	t_link	*lnk;
 
-	if (lnk = (t_link*)malloc(sizeof(t_link)))
+	if ((lnk = (t_link*)malloc(sizeof(t_link))))
 	{
 		lnk->lnk = NULL;
 		lnk->next = NULL;
+		lnk->data = 0;
 		return (lnk);
 	}
 	else
@@ -54,10 +57,11 @@ t_link	*malloc_t_link(void)
 }
 
 
-int		add_to_room_list(t_node *room, t_link *lnk)
+int		add_to_room_list(t_node *room, t_bond *lnk)
 {
-	t_link	*itr;
+	t_bond	*itr;
 
+	itr = room->neig;
 	if (!room->neig)
 		room->neig = lnk;
 	else
@@ -79,11 +83,12 @@ t_graph	*malloc_graph(void)
 {
 	t_graph	*lst;
 
-	if (lst = (t_graph*)malloc(sizeof(t_graph)))
+	if ((lst = (t_graph*)malloc(sizeof(t_graph))))
 	{
 		lst->count_ants = 0;
 		lst->count_rooms = 0;
 		lst->lst_nodes = NULL;
+		lst->list_path = NULL;
 		lst->start = NULL;
 		lst->end = NULL;
 		return (lst);
@@ -92,18 +97,31 @@ t_graph	*malloc_graph(void)
 		return (NULL);
 }
 
+t_bond	*malloc_bond(void)
+{
+	t_bond	*bn;
+
+	bn = NULL;
+	if ((bn = (t_bond*)malloc(sizeof(t_bond))))
+	{
+		bn->weight = 1;
+		bn->next = NULL;
+		bn->activ = 1;
+		bn->node = NULL;
+	}
+	return (bn);
+}
+
 int		malloc_links(t_node *room1, t_node *room2)
 {
-	t_link	*lnk;
-	t_link	*lnk2;
+	t_bond	*bond1;
+	t_bond	*bond2;
 
-	lnk = NULL;
-	lnk2 = NULL;
-	if (lnk = malloc_t_link(void) && lnk2 = malloc_t_link(void))
+	if ((bond1 = malloc_bond()) && (bond2 = malloc_bond()))
 	{
-		lnk->lnk = room2;
-		lnk2->lnk = room1;
-		if (add_to_room_list(room1, lnk) && add_to_room_list(room2, lnk2))
+		bond1->node = room2;
+		bond2->node = room1;
+		if (add_to_room_list(room1, bond1) && add_to_room_list(room2, bond2))
 			return (1);
 		else
 			return (0);

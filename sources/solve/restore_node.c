@@ -1,38 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   additional.c                                       :+:      :+:    :+:   */
+/*   restore_node.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/24 17:05:59 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/01/27 17:11:13 by cdemetra         ###   ########.fr       */
+/*   Created: 2020/02/12 20:31:48 by cdemetra          #+#    #+#             */
+/*   Updated: 2020/02/12 21:08:54 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/lem_in.h"
+#include "../../includes/lem_in.h"
 
-int		count_split(char **split)
+void	restore_nodes(t_graph *gh)
 {
-	int		x;
 
-	x = 0;
-	while (split[x])
-		x++;
-	return (x);
-}
-
-int		is_digit_only(char *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (str[i])
-	{
-		if (str[i] >= '0' && str[i] <= '9')
-			i++;
-		else
-			return (0);
-	}
-	return (1);
 }
