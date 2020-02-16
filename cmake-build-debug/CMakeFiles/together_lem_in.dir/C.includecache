@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+../libft/libft.h
+/Users/cdemetra/42course/together_lem_in/libft/libft.h
+string.h
+-
+stdio.h
+-
+limits.h
+-
+
+/Users/cdemetra/42course/together_lem_in/libft/libft.h
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+fcntl.h
+-
+
+/Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c
+../../includes/lem_in.h
+/Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+

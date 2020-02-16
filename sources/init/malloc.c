@@ -6,11 +6,11 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/23 18:01:17 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/13 14:54:10 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/15 18:59:18 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/lem_in.h"
+#include "../../includes/lem_in.h"
 
 t_link	*malloc_node(char **split)
 {
@@ -29,8 +29,10 @@ t_link	*malloc_node(char **split)
 		node->cost = INT_MAX;
 		node->parent = NULL;
 		node->neig = NULL;
+		node->main_node = NULL;
 		node->in = NULL;
 		node->out = NULL;
+		node->status = 1;
 	}
 	else
 	{
@@ -49,6 +51,7 @@ t_link	*malloc_t_link(void)
 	{
 		lnk->lnk = NULL;
 		lnk->next = NULL;
+		lnk->prev = NULL;
 		lnk->data = 0;
 		return (lnk);
 	}

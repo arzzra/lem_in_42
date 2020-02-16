@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 16:14:07 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/13 16:14:54 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/16 19:18:34 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ typedef struct		s_link
 	void			*lnk;
 	int				data;
 	struct s_link	*next;
+	struct s_link	*prev;
 }					t_link;
 
 
@@ -113,6 +114,11 @@ int					save(t_graph *gh, char *name_file);
 
 
 /*
+** free.c
+*/
+void	free_bonds(t_node *rm);
+
+/*
 **************************SOLVE************************
 *******************************************************
 */
@@ -137,5 +143,19 @@ int 	node_dividing(t_graph *gh);
 /*
 ** seacrh_way.c
 */
+
+
+
+/*
+** restore_node.c
+*/
+
+void	restore_nodes(t_graph *gh);
+
+/*
+** combine_ways.c
+*/
+
+int		combine_ways(t_graph *gh);
 
 #endif

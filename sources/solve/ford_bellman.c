@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/31 20:07:06 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/13 16:02:34 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/14 16:51:08 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,17 +27,17 @@ int		ford_bellman(t_graph *gh)
 		while (lk)
 		{
 			rm = (t_node*)lk->lnk;
-			if (rm->in && rm->out)
+			if (rm->in && rm->out && !rm->status)
 			{
-				if (ford_relaxing(rm->in) || ford_relaxing(rm->out))
+				if (ford_relaxing(rm->out) || ford_relaxing(rm->in))
 					boool = 1;
 			}
 			else if (ford_relaxing(rm))
 				boool = 1;
 			lk = lk->next;
 		}
-		if (boool == 0)
-			break ;
+//		if (boool == 0)
+//			break ;
 		n--;
 	}
 	if (gh->end->parent)
@@ -54,7 +54,7 @@ int		ford_relaxing(t_node *room)
 
 	boool = 0;
 	if (room->cost == INT_MAX)
-		return (1);
+		return (0);
 	bn = room->neig;
 	while (bn)
 	{

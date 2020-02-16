@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 15:45:44 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/13 16:14:54 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/16 19:51:32 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,11 +46,60 @@ t_node	*malloc_inout_room(char *name, int f)
 		room->out = NULL;
 		room->neig = NULL;
 		room->cost = INT_MAX;
+		room->main_node = NULL;
+		room->status = 1;
 	}
 	return (room);
 }
 
 
+int		malloc_bonds_out(t_node *d_node, t_node *nxt, t_node *prev)
+{
+	t_bond	*bn;
+	t_bond	*bony;
+
+	bn = d_node->neig;
+	while (bn)
+	{
+		if (bn->node != nxt && bn->node != prev)
+		{
+			if ((bony = malloc_bond()))
+			{
+				bony->node = bn->node;
+				add_to_room_list(d_node->out, bony);
+			}
+		}
+		bn = bn->next;
+	}
+	if ((bony = malloc_bond()))
+	{
+		bony->node = d_node->in;
+		bony->weight = 0;
+		add_to_room_list(d_node->out, bony);
+	}
+	else
+		return (0);
+	d_node->out->main_node = d_node;
+	d_node->out->status = 1;
+	return (1);
+}
+
+void	relink_inout(t_node *d_node, t_node *nxt, t_node *prev)
+{
+	t_bond	*bn;
+
+	d_node->status = 0;
+	if (d_node->in->neig)
+	{
+		d_node->in->neig->node = prev;
+		d_node->in->neig->weight = -1;
+	}
+	if (d_node->out)
+	{
+		free_bonds(d_node->out);
+		malloc_bonds_out(d_node, nxt, prev);
+	}
+}
 
 
 int		dividing_room(t_node *d_node, t_node *nxt, t_node *prev)
@@ -65,36 +114,18 @@ int		dividing_room(t_node *d_node, t_node *nxt, t_node *prev)
 			d_node->in->neig->node = prev;
 			d_node->in->neig->weight = -1;
 			d_node->in->main_node = d_node;
+			d_node->in->status = 1;
 		}
 		else
 			return (0);
 		if ((d_node->out = malloc_inout_room(d_node->name, 0)))
-		{
-			bn = d_node->neig;
-			while (bn)
-			{
-				if (bn->node != nxt && bn->node != prev)
-				{
-					if ((bony = malloc_bond()))
-					{
-						bony->node = bn->node;
-						add_to_room_list(d_node->out, bony);
-					}
-				}
-				bn = bn->next;
-			}
-			if ((bony = malloc_bond()))
-			{
-				bony->node = d_node->in;
-				bony->weight = 0;
-				add_to_room_list(d_node->out, bony);
-			}
-			else
-				return (0);
-		}
+			malloc_bonds_out(d_node, nxt, prev);
 		else
 			return (0);
+		d_node->status = 0;
 	}
+	else
+		relink_inout(d_node, nxt, prev);
 	return (1);
 }
 

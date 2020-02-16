@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 18:32:59 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/13 14:58:15 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/16 17:58:16 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ t_link	*reverse_save_way(t_node *end)
 		{
 			lstn->lnk = (void*)room;
 			lstn->next = lstk;
+			lstk->prev = lstn;
 			lstk = lstn;
 		}
 		else
@@ -64,6 +65,16 @@ void	reset_parents(t_graph *gh)
 		{
 			nod->cost = INT_MAX;
 			nod->parent = NULL;
+			nod->status = 1;
+			if (nod->in && nod->out)
+			{
+				nod->in->parent = NULL;
+				nod->out->parent = NULL;
+				nod->in->cost = INT_MAX;
+				nod->out->cost = INT_MAX;
+				nod->in->status = 0;
+				nod->out->status = 0;
+			}
 		}
 		lk = lk->next;
 	}
@@ -79,6 +90,7 @@ int		save_way(t_graph *gh)
 		while (lst->next)
 			lst = lst->next;
 		lst->next = reverse_save_way(gh->end);
+		lst->next->prev = lst;
 	}
 	else
 		gh->list_path = reverse_save_way(gh->end);
