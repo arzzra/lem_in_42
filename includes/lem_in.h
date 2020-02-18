@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 16:14:07 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/16 19:18:34 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/18 15:39:39 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,9 @@ typedef struct		s_graph
 	int				count_ants;
 	int				count_rooms;
 	int				count_edges;
+	int				count_steps;
 	struct s_link	*list_path;
+	struct s_link	*list_all_paths;
 	struct s_node	*start;
 	struct s_node	*end;
 }					t_graph;

@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 18:32:59 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/16 17:58:16 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/18 17:00:42 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ t_link	*reverse_save_way(t_node *end)
 		path_len++;
 		room = room->parent;
 	}
+	room = (t_node*)lstk->lnk;
 	if ((lstn = malloc_t_link()))
 	{
 		lstn->lnk = (void*)lstk;

@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/23 18:01:17 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/15 18:59:18 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/18 16:51:43 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,8 +90,11 @@ t_graph	*malloc_graph(void)
 	{
 		lst->count_ants = 0;
 		lst->count_rooms = 0;
+		lst->count_edges = 0;
+		lst->count_steps = INT_MAX;
 		lst->lst_nodes = NULL;
 		lst->list_path = NULL;
+		lst->list_all_paths = NULL;
 		lst->start = NULL;
 		lst->end = NULL;
 		return (lst);
