@@ -6,13 +6,13 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 18:32:59 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/18 17:00:42 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/19 18:02:10 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/lem_in.h"
 
-t_link	*reverse_save_way(t_node *end)
+t_link	*reverse_save_way(t_node *end, t_node *start)
 {
 	t_link	*lstk;
 	t_link	*lstn;
@@ -41,6 +41,11 @@ t_link	*reverse_save_way(t_node *end)
 		room = room->parent;
 	}
 	room = (t_node*)lstk->lnk;
+	if (room != start)
+	{
+		free_links2(lstk);
+		return (NULL);
+	}
 	if ((lstn = malloc_t_link()))
 	{
 		lstn->lnk = (void*)lstk;
@@ -51,7 +56,7 @@ t_link	*reverse_save_way(t_node *end)
 		return (NULL);
 }
 
-//ИСПРАВЬ на ПОЛНЫЙ ГРАФ
+//ИСПРАВЬ на ПОЛНЫЙ ГРАФ ok
 
 void	reset_parents(t_graph *gh)
 {
@@ -84,17 +89,22 @@ void	reset_parents(t_graph *gh)
 int		save_way(t_graph *gh)
 {
 	t_link	*lst;
+	t_link	*new_path;
 
-	if (gh->list_path)
+	if ((new_path = reverse_save_way(gh->end, gh->start)))
 	{
-		lst = gh->list_path;
-		while (lst->next)
-			lst = lst->next;
-		lst->next = reverse_save_way(gh->end);
-		lst->next->prev = lst;
+		if (gh->list_path)
+		{
+			lst = gh->list_path;
+			while (lst->next)
+				lst = lst->next;
+			lst->next = new_path;
+			lst->next->prev = lst;
+		}
+		else
+			gh->list_path = new_path;
+		reset_parents(gh);
+		return (1);
 	}
-	else
-		gh->list_path = reverse_save_way(gh->end);
-	reset_parents(gh);
-	return (1);
+	return (0);
 }

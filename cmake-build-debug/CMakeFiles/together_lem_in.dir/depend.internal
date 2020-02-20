@@ -76,6 +76,146 @@ CMakeFiles/together_lem_in.dir/libft/ft_memmove.c.o
 CMakeFiles/together_lem_in.dir/libft/ft_memset.c.o
  /Users/cdemetra/42course/together_lem_in/libft/ft_memset.c
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional2.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/buffer.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/conver_parts.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convercions.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_bin_frac_part.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_mantiss.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l_2.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_e_end.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_res.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/ft_printf.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/get_totallen.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/itoa2.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/length.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation_2.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/parser.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_b.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_format_csp.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_g.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int2.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int_part.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox2.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_u.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/round_line.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part_e.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_int_part_e.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_e.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_f.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/some_function.c
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.o
+ ../libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/start.c
 CMakeFiles/together_lem_in.dir/libft/ft_putchar.c.o
  /Users/cdemetra/42course/together_lem_in/libft/ft_putchar.c
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
@@ -201,49 +341,76 @@ CMakeFiles/together_lem_in.dir/libft/get_next_line.c.o
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
 CMakeFiles/together_lem_in.dir/sources/init/additional.c.o
  ../includes/lem_in.h
+ ../libft/ft_printf/includes/ft_printf.h
  ../libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/init/additional.c
 CMakeFiles/together_lem_in.dir/sources/init/main.c.o
  ../includes/lem_in.h
+ ../libft/ft_printf/includes/ft_printf.h
  ../libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/init/main.c
 CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/init/malloc.c
 CMakeFiles/together_lem_in.dir/sources/init/save.c.o
  ../includes/lem_in.h
+ ../libft/ft_printf/includes/ft_printf.h
  ../libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/init/save.c
 CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/combine_ways.c
+CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.o
+ /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/sources/solve/extra_func.c
+CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.o
+ /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/sources/solve/extra_path.c
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c
 CMakeFiles/together_lem_in.dir/sources/solve/free.c.o
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/free.c
+CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.o
+ /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+ /Users/cdemetra/42course/together_lem_in/libft/libft.h
+ /Users/cdemetra/42course/together_lem_in/sources/solve/march_of_ants.c
 CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/node_dividing.c
 CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/restore_node.c
 CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/save_way.c
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o
  ../includes/lem_in.h
+ ../libft/ft_printf/includes/ft_printf.h
  ../libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/seacrh_way.c
 CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o
  /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
+ /Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
  /Users/cdemetra/42course/together_lem_in/libft/libft.h
  /Users/cdemetra/42course/together_lem_in/sources/solve/solve.c

@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 16:14:07 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/18 15:39:39 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/20 17:25:53 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LEM_IN_H
 
 # include "../libft/libft.h"
+# include "../libft/ft_printf/includes/ft_printf.h"
 # include <string.h>
 # include <stdio.h>
 # include <limits.h>
@@ -96,7 +97,7 @@ void				free_split(char **split);
 /*
 ** save_way.c
 */
-t_link				*reverse_save_way(t_node *end);
+t_link				*reverse_save_way(t_node *end, t_node *start);
 void				reset_way(t_graph *gh); //ИСПРАВЬ на ПОЛНЫЙ ГРАФ
 int					save_way(t_graph *gh);
 
@@ -119,6 +120,7 @@ int					save(t_graph *gh, char *name_file);
 ** free.c
 */
 void	free_bonds(t_node *rm);
+void	free_links2(t_link *lk);
 
 /*
 **************************SOLVE************************
@@ -159,5 +161,27 @@ void	restore_nodes(t_graph *gh);
 */
 
 int		combine_ways(t_graph *gh);
+
+/*
+** extra_path.c
+*/
+
+int		need_a_way(t_graph *gh);
+int		distribution_ants(t_link *lk, int ants);
+
+/*
+** extra_func.c
+*/
+
+int		distance_path(t_link *lk);
+int		summ_paths(t_graph *gh);
+int		count_paths(t_graph *gh);
+void	print_path(t_graph *gh);
+
+/*
+** extra_func.c
+*/
+
+void	march_of_ants(t_graph *gh);
 
 #endif

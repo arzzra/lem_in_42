@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/cdemetra/42course/together_lem_in/includes -I/Users/cdemetra/42course/together_lem_in/libft 
+C_INCLUDES = -I/Users/cdemetra/42course/together_lem_in/includes -I/Users/cdemetra/42course/together_lem_in/libft -I/Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes 
 

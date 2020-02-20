@@ -5,9 +5,46 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(includes)
 include_directories(libft)
+include_directories(libft/ft_printf/includes)
 
 add_executable(together_lem_in
         includes/lem_in.h
+        libft/ft_printf/includes/ft_printf.h
+        libft/ft_printf/sources/additional.c
+        libft/ft_printf/sources/additional2.c
+        libft/ft_printf/sources/buffer.c
+        libft/ft_printf/sources/conver_parts.c
+        libft/ft_printf/sources/convercions.c
+        libft/ft_printf/sources/convert_bin_frac_part.c
+        libft/ft_printf/sources/convert_mantiss.c
+        libft/ft_printf/sources/div_mod_l.c
+        libft/ft_printf/sources/div_mod_l_2.c
+        libft/ft_printf/sources/fill_e_end.c
+        libft/ft_printf/sources/fill_res.c
+        libft/ft_printf/sources/ft_printf.c
+        libft/ft_printf/sources/get_totallen.c
+        libft/ft_printf/sources/itoa2.c
+        libft/ft_printf/sources/length.c
+        libft/ft_printf/sources/long_operation.c
+        libft/ft_printf/sources/long_operation_2.c
+        libft/ft_printf/sources/parser.c
+        libft/ft_printf/sources/print_b.c
+        libft/ft_printf/sources/print_format_csp.c
+        libft/ft_printf/sources/print_g.c
+        libft/ft_printf/sources/print_int.c
+        libft/ft_printf/sources/print_int2.c
+        libft/ft_printf/sources/print_int_part.c
+        libft/ft_printf/sources/print_ox.c
+        libft/ft_printf/sources/print_ox2.c
+        libft/ft_printf/sources/print_u.c
+        libft/ft_printf/sources/round_line.c
+        libft/ft_printf/sources/save_frac_part.c
+        libft/ft_printf/sources/save_frac_part_e.c
+        libft/ft_printf/sources/save_int_part_e.c
+        libft/ft_printf/sources/solve_e.c
+        libft/ft_printf/sources/solve_f.c
+        libft/ft_printf/sources/some_function.c
+        libft/ft_printf/sources/start.c
         libft/ft_atoi.c
         libft/ft_bzero.c
         libft/ft_isalnum.c
@@ -79,11 +116,14 @@ add_executable(together_lem_in
         sources/init/main.c
         sources/init/malloc.c
         sources/init/save.c
+        sources/solve/combine_ways.c
+        sources/solve/extra_func.c
+        sources/solve/extra_path.c
         sources/solve/ford_bellman.c
+        sources/solve/free.c
+        sources/solve/march_of_ants.c
         sources/solve/node_dividing.c
+        sources/solve/restore_node.c
         sources/solve/save_way.c
         sources/solve/seacrh_way.c
-        sources/solve/solve.c
-        sources/solve/free.c
-        sources/solve/restore_node.c
-        sources/solve/combine_ways.c)
+        sources/solve/solve.c)

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Users/cdemetra/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Users/cdemetra/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,9 +57,464 @@ include CMakeFiles/together_lem_in.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/together_lem_in.dir/flags.make
 
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.o: ../libft/ft_printf/sources/additional.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.o: ../libft/ft_printf/sources/additional2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional2.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional2.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional2.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.o: ../libft/ft_printf/sources/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/buffer.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/buffer.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/buffer.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.o: ../libft/ft_printf/sources/conver_parts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/conver_parts.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/conver_parts.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/conver_parts.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.o: ../libft/ft_printf/sources/convercions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convercions.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convercions.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convercions.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.o: ../libft/ft_printf/sources/convert_bin_frac_part.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_bin_frac_part.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_bin_frac_part.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_bin_frac_part.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.o: ../libft/ft_printf/sources/convert_mantiss.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_mantiss.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_mantiss.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_mantiss.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.o: ../libft/ft_printf/sources/div_mod_l.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.o: ../libft/ft_printf/sources/div_mod_l_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l_2.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l_2.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l_2.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.o: ../libft/ft_printf/sources/fill_e_end.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_e_end.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_e_end.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_e_end.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.o: ../libft/ft_printf/sources/fill_res.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_res.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_res.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_res.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.o: ../libft/ft_printf/sources/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/ft_printf.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/ft_printf.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/ft_printf.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.o: ../libft/ft_printf/sources/get_totallen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/get_totallen.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/get_totallen.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/get_totallen.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.o: ../libft/ft_printf/sources/itoa2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/itoa2.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/itoa2.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/itoa2.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.o: ../libft/ft_printf/sources/length.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/length.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/length.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/length.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.o: ../libft/ft_printf/sources/long_operation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.o: ../libft/ft_printf/sources/long_operation_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation_2.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation_2.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation_2.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.o: ../libft/ft_printf/sources/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/parser.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/parser.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/parser.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.o: ../libft/ft_printf/sources/print_b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_b.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_b.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_b.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.o: ../libft/ft_printf/sources/print_format_csp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_format_csp.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_format_csp.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_format_csp.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.o: ../libft/ft_printf/sources/print_g.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_g.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_g.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_g.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.o: ../libft/ft_printf/sources/print_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.o: ../libft/ft_printf/sources/print_int2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int2.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int2.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int2.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.o: ../libft/ft_printf/sources/print_int_part.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int_part.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int_part.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int_part.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.o: ../libft/ft_printf/sources/print_ox.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.o: ../libft/ft_printf/sources/print_ox2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox2.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox2.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox2.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.o: ../libft/ft_printf/sources/print_u.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_u.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_u.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_u.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.o: ../libft/ft_printf/sources/round_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/round_line.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/round_line.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/round_line.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.o: ../libft/ft_printf/sources/save_frac_part.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.o: ../libft/ft_printf/sources/save_frac_part_e.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part_e.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part_e.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part_e.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.o: ../libft/ft_printf/sources/save_int_part_e.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_int_part_e.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_int_part_e.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_int_part_e.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.o: ../libft/ft_printf/sources/solve_e.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_e.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_e.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_e.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.o: ../libft/ft_printf/sources/solve_f.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_f.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_f.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_f.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.o: ../libft/ft_printf/sources/some_function.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/some_function.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/some_function.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/some_function.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.s
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.o: ../libft/ft_printf/sources/start.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/start.c
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/start.c > CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.i
+
+CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/start.c -o CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.s
+
 CMakeFiles/together_lem_in.dir/libft/ft_atoi.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_atoi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_atoi.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_atoi.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_atoi.c.i: cmake_force
@@ -72,7 +527,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_atoi.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_bzero.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_bzero.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_bzero.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_bzero.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_bzero.c.i: cmake_force
@@ -85,7 +540,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_bzero.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_isalnum.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isalnum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isalnum.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_isalnum.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_isalnum.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_isalnum.c.i: cmake_force
@@ -98,7 +553,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_isalnum.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_isalpha.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isalpha.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_isalpha.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_isalpha.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_isalpha.c.i: cmake_force
@@ -111,7 +566,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_isalpha.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_isascii.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_isascii.c.o: ../libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isascii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isascii.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_isascii.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_isascii.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_isascii.c.i: cmake_force
@@ -124,7 +579,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_isascii.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_isdigit.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isdigit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_isdigit.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_isdigit.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_isdigit.c.i: cmake_force
@@ -137,7 +592,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_isdigit.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_isprint.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_isprint.c.o: ../libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isprint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_isprint.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_isprint.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_isprint.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_isprint.c.i: cmake_force
@@ -150,7 +605,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_isprint.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_itoa.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_itoa.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_itoa.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_itoa.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_itoa.c.i: cmake_force
@@ -163,7 +618,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_itoa.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_lst_contentsearch.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_lst_contentsearch.c.o: ../libft/ft_lst_contentsearch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lst_contentsearch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lst_contentsearch.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_lst_contentsearch.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_lst_contentsearch.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_lst_contentsearch.c.i: cmake_force
@@ -176,7 +631,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_lst_contentsearch.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_lst_size.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_lst_size.c.o: ../libft/ft_lst_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lst_size.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lst_size.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_lst_size.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_lst_size.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_lst_size.c.i: cmake_force
@@ -189,7 +644,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_lst_size.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstadd.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_lstadd.c.o: ../libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstadd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstadd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_lstadd.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_lstadd.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstadd.c.i: cmake_force
@@ -202,7 +657,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_lstadd.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstdel.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_lstdel.c.o: ../libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_lstdel.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_lstdel.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstdel.c.i: cmake_force
@@ -215,7 +670,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_lstdel.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstdelone.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstdelone.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_lstdelone.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_lstdelone.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstdelone.c.i: cmake_force
@@ -228,7 +683,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_lstdelone.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstiter.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_lstiter.c.o: ../libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstiter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_lstiter.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_lstiter.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstiter.c.i: cmake_force
@@ -241,7 +696,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_lstiter.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstmap.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_lstmap.c.o: ../libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_lstmap.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_lstmap.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstmap.c.i: cmake_force
@@ -254,7 +709,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_lstmap.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstnew.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_lstnew.c.o: ../libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_lstnew.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_lstnew.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstnew.c.i: cmake_force
@@ -267,7 +722,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_lstnew.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstnpoint.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_lstnpoint.c.o: ../libft/ft_lstnpoint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstnpoint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_lstnpoint.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_lstnpoint.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_lstnpoint.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_lstnpoint.c.i: cmake_force
@@ -280,7 +735,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_lstnpoint.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_memalloc.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memalloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memalloc.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_memalloc.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_memalloc.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_memalloc.c.i: cmake_force
@@ -293,7 +748,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_memalloc.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_memccpy.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memccpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_memccpy.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_memccpy.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_memccpy.c.i: cmake_force
@@ -306,7 +761,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_memccpy.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_memchr.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_memchr.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_memchr.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_memchr.c.i: cmake_force
@@ -319,7 +774,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_memchr.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_memcmp.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_memcmp.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_memcmp.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_memcmp.c.i: cmake_force
@@ -332,7 +787,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_memcmp.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_memcpy.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_memcpy.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_memcpy.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_memcpy.c.i: cmake_force
@@ -345,7 +800,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_memcpy.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_memdel.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_memdel.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_memdel.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_memdel.c.i: cmake_force
@@ -358,7 +813,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_memdel.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_memmove.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memmove.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_memmove.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_memmove.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_memmove.c.i: cmake_force
@@ -371,7 +826,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_memmove.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_memset.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_memset.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_memset.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_memset.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_memset.c.i: cmake_force
@@ -384,7 +839,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_memset.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_putchar.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_putchar.c.o: ../libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putchar.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_putchar.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_putchar.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_putchar.c.i: cmake_force
@@ -397,7 +852,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_putchar.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_putchar_fd.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putchar_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_putchar_fd.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_putchar_fd.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_putchar_fd.c.i: cmake_force
@@ -410,7 +865,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_putchar_fd.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_putendl.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_putendl.c.o: ../libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putendl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putendl.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_putendl.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_putendl.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_putendl.c.i: cmake_force
@@ -423,7 +878,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_putendl.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_putendl_fd.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putendl_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_putendl_fd.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_putendl_fd.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_putendl_fd.c.i: cmake_force
@@ -436,7 +891,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_putendl_fd.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_putnbr.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_putnbr.c.o: ../libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putnbr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putnbr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_putnbr.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_putnbr.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_putnbr.c.i: cmake_force
@@ -449,7 +904,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_putnbr.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putnbr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_putnbr_fd.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_putnbr_fd.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_putnbr_fd.c.i: cmake_force
@@ -462,7 +917,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_putnbr_fd.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_putstr.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_putstr.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_putstr.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_putstr.c.i: cmake_force
@@ -475,7 +930,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_putstr.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_putstr_fd.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_putstr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_putstr_fd.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_putstr_fd.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_putstr_fd.c.i: cmake_force
@@ -488,7 +943,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_putstr_fd.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_sort_wordtab.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_sort_wordtab.c.o: ../libft/ft_sort_wordtab.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_sort_wordtab.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_sort_wordtab.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_sort_wordtab.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_sort_wordtab.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_sort_wordtab.c.i: cmake_force
@@ -501,7 +956,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_sort_wordtab.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_str_reverse.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_str_reverse.c.o: ../libft/ft_str_reverse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_str_reverse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_str_reverse.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_str_reverse.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_str_reverse.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_str_reverse.c.i: cmake_force
@@ -514,7 +969,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_str_reverse.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strcat.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strcat.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strcat.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strcat.c.i: cmake_force
@@ -527,7 +982,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strcat.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strchr.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strchr.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strchr.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strchr.c.i: cmake_force
@@ -540,7 +995,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strclr.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strclr.c.o: ../libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strclr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strclr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strclr.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strclr.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strclr.c.i: cmake_force
@@ -553,7 +1008,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strclr.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strcmp.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strcmp.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strcmp.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strcmp.c.i: cmake_force
@@ -566,7 +1021,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strcpy.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strcpy.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strcpy.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strcpy.c.i: cmake_force
@@ -579,7 +1034,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strcpy.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strdel.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strdel.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strdel.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strdel.c.i: cmake_force
@@ -592,7 +1047,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strdel.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strdup.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strdup.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strdup.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strdup.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strdup.c.i: cmake_force
@@ -605,7 +1060,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strequ.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strequ.c.o: ../libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strequ.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strequ.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strequ.c.i: cmake_force
@@ -618,7 +1073,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strequ.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_striter.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_striter.c.o: ../libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_striter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_striter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_striter.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_striter.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_striter.c.i: cmake_force
@@ -631,7 +1086,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_striter.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_striteri.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_striteri.c.o: ../libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_striteri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_striteri.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_striteri.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_striteri.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_striteri.c.i: cmake_force
@@ -644,7 +1099,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_striteri.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strjoin.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strjoin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strjoin.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strjoin.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strjoin.c.i: cmake_force
@@ -657,7 +1112,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strlcat.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strlcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strlcat.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strlcat.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strlcat.c.i: cmake_force
@@ -670,7 +1125,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strlcat.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strlen.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strlen.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strlen.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strlen.c.i: cmake_force
@@ -683,7 +1138,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strlen.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strlowcase.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strlowcase.c.o: ../libft/ft_strlowcase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strlowcase.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strlowcase.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strlowcase.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strlowcase.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strlowcase.c.i: cmake_force
@@ -696,7 +1151,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strlowcase.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strmap.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strmap.c.o: ../libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strmap.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strmap.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strmap.c.i: cmake_force
@@ -709,7 +1164,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strmap.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strmapi.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strmapi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strmapi.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strmapi.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strmapi.c.i: cmake_force
@@ -722,7 +1177,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strmapi.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strncat.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strncat.c.o: ../libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strncat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strncat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strncat.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strncat.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strncat.c.i: cmake_force
@@ -735,7 +1190,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strncat.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strncmp.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strncmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strncmp.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strncmp.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strncmp.c.i: cmake_force
@@ -748,7 +1203,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strncmp.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strncpy.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strncpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strncpy.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strncpy.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strncpy.c.i: cmake_force
@@ -761,7 +1216,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strncpy.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strnequ.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strnequ.c.o: ../libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strnequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strnequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strnequ.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strnequ.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strnequ.c.i: cmake_force
@@ -774,7 +1229,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strnequ.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strnew.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strnew.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strnew.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strnew.c.i: cmake_force
@@ -787,7 +1242,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strnew.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strnstr.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strnstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strnstr.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strnstr.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strnstr.c.i: cmake_force
@@ -800,7 +1255,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strnstr.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strrchr.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strrchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strrchr.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strrchr.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strrchr.c.i: cmake_force
@@ -813,7 +1268,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strrchr.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strsplit.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strsplit.c.o: ../libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strsplit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strsplit.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strsplit.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strsplit.c.i: cmake_force
@@ -826,7 +1281,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strsplit.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strstr.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strstr.c.o: ../libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strstr.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strstr.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strstr.c.i: cmake_force
@@ -839,7 +1294,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strstr.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strsub.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strsub.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strsub.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strsub.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strsub.c.i: cmake_force
@@ -852,7 +1307,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strsub.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strtrim.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strtrim.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strtrim.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strtrim.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strtrim.c.i: cmake_force
@@ -865,7 +1320,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strtrim.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_strupcase.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_strupcase.c.o: ../libft/ft_strupcase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strupcase.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_strupcase.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_strupcase.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_strupcase.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_strupcase.c.i: cmake_force
@@ -878,7 +1333,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_strupcase.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_tolower.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_tolower.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_tolower.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_tolower.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_tolower.c.i: cmake_force
@@ -891,7 +1346,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_tolower.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/ft_toupper.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/together_lem_in.dir/libft/ft_toupper.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/ft_toupper.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/ft_toupper.c
 
 CMakeFiles/together_lem_in.dir/libft/ft_toupper.c.i: cmake_force
@@ -904,7 +1359,7 @@ CMakeFiles/together_lem_in.dir/libft/ft_toupper.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/libft/get_next_line.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/together_lem_in.dir/libft/get_next_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/together_lem_in.dir/libft/get_next_line.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/libft/get_next_line.c.o   -c /Users/cdemetra/42course/together_lem_in/libft/get_next_line.c
 
 CMakeFiles/together_lem_in.dir/libft/get_next_line.c.i: cmake_force
@@ -917,7 +1372,7 @@ CMakeFiles/together_lem_in.dir/libft/get_next_line.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/sources/init/additional.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/init/additional.c.o: ../sources/init/additional.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/together_lem_in.dir/sources/init/additional.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/together_lem_in.dir/sources/init/additional.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/init/additional.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/init/additional.c
 
 CMakeFiles/together_lem_in.dir/sources/init/additional.c.i: cmake_force
@@ -930,7 +1385,7 @@ CMakeFiles/together_lem_in.dir/sources/init/additional.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/sources/init/main.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/init/main.c.o: ../sources/init/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/together_lem_in.dir/sources/init/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/together_lem_in.dir/sources/init/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/init/main.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/init/main.c
 
 CMakeFiles/together_lem_in.dir/sources/init/main.c.i: cmake_force
@@ -943,7 +1398,7 @@ CMakeFiles/together_lem_in.dir/sources/init/main.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o: ../sources/init/malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/init/malloc.c
 
 CMakeFiles/together_lem_in.dir/sources/init/malloc.c.i: cmake_force
@@ -956,7 +1411,7 @@ CMakeFiles/together_lem_in.dir/sources/init/malloc.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/sources/init/save.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/init/save.c.o: ../sources/init/save.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/together_lem_in.dir/sources/init/save.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/together_lem_in.dir/sources/init/save.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/init/save.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/init/save.c
 
 CMakeFiles/together_lem_in.dir/sources/init/save.c.i: cmake_force
@@ -967,9 +1422,48 @@ CMakeFiles/together_lem_in.dir/sources/init/save.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/init/save.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/init/save.c -o CMakeFiles/together_lem_in.dir/sources/init/save.c.s
 
+CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o: ../sources/solve/combine_ways.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/combine_ways.c
+
+CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/solve/combine_ways.c > CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.i
+
+CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/combine_ways.c -o CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.s
+
+CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.o: ../sources/solve/extra_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/extra_func.c
+
+CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/solve/extra_func.c > CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.i
+
+CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/extra_func.c -o CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.s
+
+CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.o: ../sources/solve/extra_path.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/extra_path.c
+
+CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/solve/extra_path.c > CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.i
+
+CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/extra_path.c -o CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.s
+
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o: ../sources/solve/ford_bellman.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c
 
 CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.i: cmake_force
@@ -980,9 +1474,35 @@ CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c -o CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.s
 
+CMakeFiles/together_lem_in.dir/sources/solve/free.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/sources/solve/free.c.o: ../sources/solve/free.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/free.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/free.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/free.c
+
+CMakeFiles/together_lem_in.dir/sources/solve/free.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/solve/free.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/solve/free.c > CMakeFiles/together_lem_in.dir/sources/solve/free.c.i
+
+CMakeFiles/together_lem_in.dir/sources/solve/free.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/free.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/free.c -o CMakeFiles/together_lem_in.dir/sources/solve/free.c.s
+
+CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.o: ../sources/solve/march_of_ants.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/march_of_ants.c
+
+CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/solve/march_of_ants.c > CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.i
+
+CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/march_of_ants.c -o CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.s
+
 CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o: ../sources/solve/node_dividing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/node_dividing.c
 
 CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.i: cmake_force
@@ -993,9 +1513,22 @@ CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/node_dividing.c -o CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.s
 
+CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o: CMakeFiles/together_lem_in.dir/flags.make
+CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o: ../sources/solve/restore_node.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/restore_node.c
+
+CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/solve/restore_node.c > CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.i
+
+CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/restore_node.c -o CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.s
+
 CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o: ../sources/solve/save_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/save_way.c
 
 CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.i: cmake_force
@@ -1008,7 +1541,7 @@ CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o: ../sources/solve/seacrh_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/seacrh_way.c
 
 CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.i: cmake_force
@@ -1021,7 +1554,7 @@ CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.s: cmake_force
 
 CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o: CMakeFiles/together_lem_in.dir/flags.make
 CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o: ../sources/solve/solve.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/solve.c
 
 CMakeFiles/together_lem_in.dir/sources/solve/solve.c.i: cmake_force
@@ -1032,47 +1565,43 @@ CMakeFiles/together_lem_in.dir/sources/solve/solve.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/solve.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/solve.c -o CMakeFiles/together_lem_in.dir/sources/solve/solve.c.s
 
-CMakeFiles/together_lem_in.dir/sources/solve/free.c.o: CMakeFiles/together_lem_in.dir/flags.make
-CMakeFiles/together_lem_in.dir/sources/solve/free.c.o: ../sources/solve/free.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/free.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/free.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/free.c
-
-CMakeFiles/together_lem_in.dir/sources/solve/free.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/solve/free.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/solve/free.c > CMakeFiles/together_lem_in.dir/sources/solve/free.c.i
-
-CMakeFiles/together_lem_in.dir/sources/solve/free.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/free.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/free.c -o CMakeFiles/together_lem_in.dir/sources/solve/free.c.s
-
-CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o: CMakeFiles/together_lem_in.dir/flags.make
-CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o: ../sources/solve/restore_node.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/restore_node.c
-
-CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/solve/restore_node.c > CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.i
-
-CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/restore_node.c -o CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.s
-
-CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o: CMakeFiles/together_lem_in.dir/flags.make
-CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o: ../sources/solve/combine_ways.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o   -c /Users/cdemetra/42course/together_lem_in/sources/solve/combine_ways.c
-
-CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdemetra/42course/together_lem_in/sources/solve/combine_ways.c > CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.i
-
-CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdemetra/42course/together_lem_in/sources/solve/combine_ways.c -o CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.s
-
 # Object files for target together_lem_in
 together_lem_in_OBJECTS = \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.o" \
+"CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.o" \
 "CMakeFiles/together_lem_in.dir/libft/ft_atoi.c.o" \
 "CMakeFiles/together_lem_in.dir/libft/ft_bzero.c.o" \
 "CMakeFiles/together_lem_in.dir/libft/ft_isalnum.c.o" \
@@ -1143,18 +1672,56 @@ together_lem_in_OBJECTS = \
 "CMakeFiles/together_lem_in.dir/sources/init/main.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/init/save.c.o" \
+"CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o" \
+"CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.o" \
+"CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o" \
+"CMakeFiles/together_lem_in.dir/sources/solve/free.c.o" \
+"CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o" \
+"CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o" \
 "CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o" \
-"CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o" \
-"CMakeFiles/together_lem_in.dir/sources/solve/free.c.o" \
-"CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o" \
-"CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o"
+"CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o"
 
 # External object files for target together_lem_in
 together_lem_in_EXTERNAL_OBJECTS =
 
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/additional2.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/buffer.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/conver_parts.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convercions.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_bin_frac_part.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/convert_mantiss.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/div_mod_l_2.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_e_end.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/fill_res.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/ft_printf.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/get_totallen.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/itoa2.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/length.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/long_operation_2.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/parser.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_b.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_format_csp.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_g.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int2.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_int_part.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_ox2.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/print_u.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/round_line.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_frac_part_e.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/save_int_part_e.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_e.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/solve_f.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/some_function.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_printf/sources/start.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_atoi.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_bzero.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/libft/ft_isalnum.c.o
@@ -1225,17 +1792,20 @@ together_lem_in: CMakeFiles/together_lem_in.dir/sources/init/additional.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/init/main.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/init/malloc.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/init/save.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/extra_func.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/extra_path.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/ford_bellman.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/free.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/march_of_ants.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/node_dividing.c.o
+together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/save_way.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/seacrh_way.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/solve.c.o
-together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/free.c.o
-together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/restore_node.c.o
-together_lem_in: CMakeFiles/together_lem_in.dir/sources/solve/combine_ways.c.o
 together_lem_in: CMakeFiles/together_lem_in.dir/build.make
 together_lem_in: CMakeFiles/together_lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking C executable together_lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cdemetra/42course/together_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Linking C executable together_lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/together_lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

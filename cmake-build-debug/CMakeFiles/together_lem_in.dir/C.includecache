@@ -9,11 +9,41 @@
 /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
 ../libft/libft.h
 /Users/cdemetra/42course/together_lem_in/libft/libft.h
+../libft/ft_printf/includes/ft_printf.h
+/Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
 string.h
 -
 stdio.h
 -
 limits.h
+-
+
+/Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+unistd.h
+-
+stdarg.h
+-
+ft_printf.h
+/Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h
+../libft/libft.h
+/Users/cdemetra/42course/together_lem_in/libft/ft_printf/libft/libft.h
+stdlib.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+stdint.h
+-
+limits.h
+-
+float.h
+-
+string.h
+-
+stdio.h
 -
 
 /Users/cdemetra/42course/together_lem_in/libft/libft.h
@@ -26,7 +56,7 @@ stdlib.h
 fcntl.h
 -
 
-/Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c
+/Users/cdemetra/42course/together_lem_in/sources/solve/march_of_ants.c
 ../../includes/lem_in.h
 /Users/cdemetra/42course/together_lem_in/includes/lem_in.h
 

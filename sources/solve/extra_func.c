@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/18 15:37:57 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/18 16:35:20 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/20 17:26:53 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int		distance_path(t_link *lk)
 	x = 0;
 	if (lk)
 	{
-		while(lk)
+		while(lk->next)
 		{
 			x++;
 			lk = lk->next;
@@ -38,8 +38,9 @@ int		summ_paths(t_graph *gh)
 	{
 		iter = gh->list_path;
 		while (iter)
-		{
-			paths_len += distance_path(iter->lnk);
+		{ 
+			iter->data = distance_path(iter->lnk);
+			paths_len += iter->data;
 			iter = iter->next;
 		}
 		return (paths_len);
@@ -52,9 +53,9 @@ int		count_paths(t_graph *gh)
 	int		count;
 	t_link	*lk;
 
-	count = 0;
 	if (gh->list_path)
 	{
+		count = 0;
 		lk = gh->list_path;
 		while (lk)
 		{
@@ -63,7 +64,7 @@ int		count_paths(t_graph *gh)
 		}
 		return (count);
 	}
-	return (0);
+	return (1);
 }
 
 void	print_path(t_graph *gh)
@@ -71,6 +72,7 @@ void	print_path(t_graph *gh)
 	t_link	*lk;
 	t_link	*lk2;
 	t_node	*nod;
+	int 	len;
 
 	lk = gh->list_all_paths;
 	if (lk)
@@ -78,13 +80,15 @@ void	print_path(t_graph *gh)
 		while (lk)
 		{
 			lk2 = lk->lnk;
+			len = distance_path((lk2));
+			ft_printf("Dist: %d ", len);
 			while (lk2)
 			{
 				nod = lk2->lnk;
-				printf("%s - ", nod->name);
+				ft_printf("%s ", nod->name);
 				lk2 = lk2->next;
 			}
-			printf("\n");
+			ft_printf("\n");
 			lk = lk->next;
 		}
 	}

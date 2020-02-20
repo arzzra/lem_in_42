@@ -46,6 +46,7 @@
 				<Compiler>
 					<Add directory="/Users/cdemetra/42course/together_lem_in/includes"/>
 					<Add directory="/Users/cdemetra/42course/together_lem_in/libft"/>
+					<Add directory="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -69,6 +70,7 @@
 				<Compiler>
 					<Add directory="/Users/cdemetra/42course/together_lem_in/includes"/>
 					<Add directory="/Users/cdemetra/42course/together_lem_in/libft"/>
+					<Add directory="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -160,6 +162,114 @@
 			<Option target="together_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_memset.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/includes/ft_printf.h">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/additional2.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/buffer.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/conver_parts.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convercions.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_bin_frac_part.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/convert_mantiss.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/div_mod_l_2.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_e_end.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/fill_res.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/ft_printf.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/get_totallen.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/itoa2.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/length.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/long_operation_2.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/parser.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_b.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_format_csp.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_g.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int2.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_int_part.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_ox2.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/print_u.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/round_line.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_frac_part_e.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/save_int_part_e.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_e.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/solve_f.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/some_function.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_printf/sources/start.c">
 			<Option target="together_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/libft/ft_putchar.c">
@@ -303,10 +413,19 @@
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/combine_ways.c">
 			<Option target="together_lem_in"/>
 		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/extra_func.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/extra_path.c">
+			<Option target="together_lem_in"/>
+		</Unit>
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/ford_bellman.c">
 			<Option target="together_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/free.c">
+			<Option target="together_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/march_of_ants.c">
 			<Option target="together_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/cdemetra/42course/together_lem_in/sources/solve/node_dividing.c">

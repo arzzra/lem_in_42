@@ -6,7 +6,7 @@
 /*   By: cdemetra <cdemetra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/14 18:22:22 by cdemetra          #+#    #+#             */
-/*   Updated: 2020/02/18 15:51:41 by cdemetra         ###   ########.fr       */
+/*   Updated: 2020/02/19 16:08:22 by cdemetra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	free_bonds(t_node *rm)
 }
 
 
-void	free_links(t_link *lk)
+void	free_links2(t_link *lk)
 {
 	t_link	*fr;
 
